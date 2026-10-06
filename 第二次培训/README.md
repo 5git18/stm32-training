@@ -13,3 +13,10 @@
 
 与第一次培训相同。
 
+## 4. 关于如何把新作业同步到本地
+
+由于后面我们会继续在原仓库上发布新作业，但你之前fork的仓库不会自动同步原仓库更新的内容。这时我们需要点击fetch origin，我们会看到它会出现fetching upstream的提示，这是它在获取原仓库更新的内容；接着点击current branch，点击下方的“choose a branch to merge into main",然后选择“upstream/main”，这样就把上游原仓库的更新合并到你本地的main分支了，最后再点击“Push origin”推送到你fork的仓库。
+
+![alt text](image2.png)
+![alt text](image1.png)
+![alt text](image3.png)
